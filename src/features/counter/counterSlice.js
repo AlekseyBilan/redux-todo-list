@@ -40,3 +40,6 @@ export const incrementAsync = amount => dispatch => {
 export const selectCount = state => state.counter.value;
 
 export default counterSlice.reducer;
+
+//Object.assign({}, state, {visibilityFilter: action.filter});
+//{...state, visibilityFilter: action.filter } ;
